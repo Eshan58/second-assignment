@@ -113,9 +113,7 @@
         </section>
         <section class="mx-[150px] my-[130px]">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 max-w-6xl mx-auto">
-                <!-- Left Side (2 small cards stacked vertically) -->
                 <div class="flex flex-col gap-4">
-                    <!-- Card 1 -->
                     <div class="relative h-[151px] rounded-xl overflow-hidden">
                         <img src="assets/deal-bloom.png" alt="Bloom Plant" class="object-cover w-full h-full">
                         <div class="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-center text-white text-center">
@@ -123,7 +121,6 @@
                             <a href="#" class="underline text-xs mt-2">Shop Now</a>
                         </div>
                     </div>
-                    <!-- Card 2 -->
                     <div class="relative h-[151px] rounded-xl overflow-hidden">
                         <img src="assets/deal-ana.png" alt="Ana Plant" class="object-cover w-full h-full" />
                         <div class="absolute inset-0 bg-opacity-40 flex flex-col justify-center items-center text-white text-center">
@@ -132,7 +129,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Right Side (larger card) -->
                 <div class="relative h-80 rounded-xl overflow-hidden md:col-span-2">
                     <img src="assets/deal-zabo.png" alt="Zabo Plant" class="object-cover w-full h-full" />
                     <div class="absolute inset-0 bg-opacity-40 flex flex-col justify-center items-center text-white text-center">
@@ -144,7 +140,22 @@
         </section>
     </main>
     <footer>
+        <section>
+            <div class="relative h-[500px] w-full">
+                <!-- Image -->
+                <img src="assets/news-letter-bg.png" alt="Flowers" class="w-full h-full object-cover" />
 
+                <!-- Overlay Content -->
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black/30">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 ml-15">Join the colorful Bunch</h2>
+
+                    <form class="flex w-full max-w-md px-4">
+                        <input type="email" placeholder="Write email" class="bg-white px-35 py-2 pl-8 text-black focus:outline-none"/>
+                        <button type="submit" class="bg-orange-600 text-white px-8 py-2 hover:bg-red-700 transition">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
